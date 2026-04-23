@@ -1,3 +1,7 @@
+<?php
+require_once 'config/config.php';
+?>
+
 <?php // abrimos php
 
 echo phpinfo();
@@ -7,7 +11,7 @@ echo phpinfo();
 <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title> JUAN GRACIA </title>
+       <title> <?php echo TITLE_BUSINESS; ?> </title>
 </head>
 <body>
 
