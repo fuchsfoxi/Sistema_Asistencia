@@ -1,4 +1,6 @@
+#iniciar
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ public/index.php [QSA,L]
+#Redireccionar si entraan a la raiz del proyeto 
+RewriteRule  ^$ app/index.php [L]
+
+rewritebase /
